@@ -2,8 +2,6 @@
 The ApisCP KB is built in markdown and stored in /usr/local/apnscp/docs on your ApisCP Server.
 Copy that docs folder to your wordpress site and use this script to build out the articles.
 
-DO NOT RUN
-
 ## Usage
 ```bash
 cd /path/to/wordpress

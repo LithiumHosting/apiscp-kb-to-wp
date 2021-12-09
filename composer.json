@@ -1,0 +1,24 @@
+{
+  "name": "lithiumhosting/markdownimporter",
+  "description": "ApisCP KB to Wordpress Importer",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Troy Siedsma",
+      "email": "tsiedsma@lithiumhosting.com"
+    }
+  ],
+  "require": {
+    "erusev/parsedown": "^1.7",
+    "modularr/yaml-front-matter": "^1.0",
+    "illuminate/database": "^8.75",
+    "larapack/dd": "^1.1",
+    "laravel/helpers": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "LithiumHosting\\MarkdownImporter\\": "src/"
+    }
+  }
+}
